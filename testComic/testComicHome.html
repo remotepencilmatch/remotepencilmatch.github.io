@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <link rel="testComic" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            margin:0px;
+            width: 100%;
+            height:100%;
+        }
+        body{
+            display: flex;
+            flex-flow: column;
+        }
+        .bannerDiv {
+            border: 5px outset White;
+            background-color: lightgrey;
+            text-align: center;
+            flex: 0 auto;
+        }
+        .bodyDiv {
+            border: 5px solid lightgrey;
+            background-color: White;
+            text-align: center;
+            flex: 1 auto;
+        }
+    </style>  
+    <script src="../ComicScroller/ComicScrollerUI.js"></script>
+</head>
+<body>
+    <!--banner-->
+    <div class="bannerDiv">
+        <h1 ID = "test">banner</h1>
+    </div>
+    <!--Body-->
+    <div id="Comic_Window" class="bodyDiv">
+       <!--<div name="Comic Root" style="height: 100%; width: 100%; overflow: hidden; background-color: lightgoldenrodyellow;">
+            <div name="Camera Root" style="position: relative; top: 0px; left: 0px; transform-origin:top left; transform: scale(0.23, 0.23) translate(1275px, 0px);">
+                <div style="visibility:visible; position: absolute; top: 0px; left: -1275px;">
+                    <img src="pages/1.png"/>
+                </div>
+                <div style="position: absolute; top: 210px; left: 20px; height: 100px; width: 100px; background-color: green;"></div>
+                <div style="position: absolute; top: -30px; left: 0px; height: 100px; width: 100px; background-color: blue;"></div>
+            </div>
+        </div>-->
+    </div>
+    <script>
+        var ComicWindow = document.getElementById("Comic_Window");
+
+        //Mainloop.js
+        Comic_Init(window
+                , document
+                , ComicWindow
+                , "../ComicScroller"
+                , "pageData2.json"
+                , "testComic");
+
+        var bannerTxt = document.getElementById("test");
+        var num = 0;
+        /*document.addEventListener("scroll"
+                                , function(e) 
+                                    { num += e;
+                                    bannerTxt.innerHTML = num;});*/
+
+    </script>
+</body>

@@ -1,0 +1,59 @@
+{
+    "backgroundColor": "#ffffff",
+    "imageScaleSide": "x",
+    "imageScaleLength": 1000,
+    "imageMinAspect": 1000,
+    "imageMaxAspect": 2000,
+    "scrollSpeed": 1,
+    "visibleSetSize": 5,
+    "pages": [
+        {
+            "imgSrc": "pages2/D.png",
+            "selfConnectingSide": "t",
+            "selfConnectingAmount": "50%",
+            "previousConnectingAmount": null
+        },
+        {
+            "imgSrc": "pages2/D.png",
+            "selfConnectingSide": "t",
+            "selfConnectingAmount": "20%",
+            "previousConnectingAmount": null
+        },
+        {
+            "imgSrc": "pages2/D.png",
+            "selfConnectingSide": "t",
+            "selfConnectingAmount": "70%",
+            "previousConnectingAmount": null
+        },
+        {
+            "imgSrc": "pages2/R.png",
+            "selfConnectingSide": "t",
+            "selfConnectingAmount": "10%",
+            "previousConnectingAmount": null
+        },
+        {
+            "imgSrc": "pages2/R.png",
+            "selfConnectingSide": "L",
+            "selfConnectingAmount": "0%",
+            "previousConnectingAmount": "20%"
+        },
+        {
+            "imgSrc": "pages2/U.png",
+            "selfConnectingSide": "L",
+            "selfConnectingAmount": "0%",
+            "previousConnectingAmount": "0%"
+        },
+        {
+            "imgSrc": "pages2/U.png",
+            "selfConnectingSide": "B",
+            "selfConnectingAmount": "20%",
+            "previousConnectingAmount": null
+        },
+        {
+            "imgSrc": "pages2/U.png",
+            "selfConnectingSide": "B",
+            "selfConnectingAmount": "50%",
+            "previousConnectingAmount": null
+        }
+    ]
+}
